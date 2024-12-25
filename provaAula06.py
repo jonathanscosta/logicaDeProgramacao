@@ -15,5 +15,8 @@ while tentativas >0:
             login = input("digite seu login novamente  ").lower().strip()
             senha = int(input("digite sua senha novamente  "))
 else:
-    print("acesso negado")
+    print("suas tentativas acabaram")
+if tentativas == 0:
+    for errar in range(3)
+    print ("acesso negado")
 
